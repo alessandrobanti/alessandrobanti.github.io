@@ -1,0 +1,137 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+html, body {
+    height: 100%; /* Ensure the body takes the full height of the viewport */
+    margin: 0;
+}
+
+
+main {
+    flex: 1; /* Makes the main content area grow and fill the remaining space */
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.english-text {
+    color: #666666; /* Secondary color - Soft gray */
+    font-style: italic;
+}
+
+.form-control:focus {
+    border-color: #D4AF37; /* Soft Gold */
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(212, 175, 55, 0.25); /* Soft Gold shadow with opacity */
+}
+
+.justify {
+    text-align: justify;
+}
+
+.title_rouge {
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #730900;
+}
+
+.intro_sec {
+    padding-bottom: 50;
+}
+
+.text_ita {
+    font-family: "Helvetica Neue Light";
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.15em; /* Adjust this value to control the size */
+}
+
+.ibm-plex-sans-thin {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+
+.btn-primary {
+    background-color: #730900; /* Replace with your desired background color */
+    border-color: #540700;     /* Ensure border matches background color */
+}
+
+.btn-primary:hover {
+    background-color: #ad1212; /* Optional: change color on hover */
+    border-color: #540700;     /* Ensure border matches hover background color */
+}
+
+.form-control {
+    border-radius: 0; /* Removes the rounded corners */
+}
+
+/* For buttons */
+.btn {
+    border-radius: 0; /* Removes the rounded corners */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Vertically centers the content */
+    align-items: center;      /* Horizontally centers the content */
+    height: 100vh;            /* Make sure the section takes full viewport height */
+    text-align: center;       /* Center text alignment */
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #939393;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.quote-right {
+    text-align: right;
+}
+
+
+/* Custom gutter only on larger screens */
+@media (min-width: 768px) {
+
+    .pd_r {
+        padding-right: 15px;
+    }
+
+}

@@ -24,7 +24,10 @@ header {
 
 .english-text {
     color: #666666; /* Secondary color - Soft gray */
+    font-family: "Helvetica Neue Light";
     font-style: italic;
+    font-weight: 300;
+    font-size: .98em;
 }
 
 .form-control:focus {
@@ -52,8 +55,8 @@ header {
 .text_ita {
     font-family: "Helvetica Neue Light";
     font-style: italic;
-    font-weight: 200;
-    font-size: 1.15em; /* Adjust this value to control the size */
+    font-weight: 300;
+    font-size: .98em; /* Adjust this value to control the size */
 }
 
 .ibm-plex-sans-thin {

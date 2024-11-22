@@ -27,6 +27,7 @@ header {
     font-family: "Helvetica Neue Light";
     font-style: italic;
     font-weight: 300;
+    font-size: .98em;
 }
 
 .form-control:focus {
@@ -55,7 +56,7 @@ header {
     font-family: "Helvetica Neue Light";
     font-style: italic;
     font-weight: 300;
-    font-size: .98em; /* Adjust this value to control the size */
+    font-size: .98em; 
 }
 
 .ibm-plex-sans-thin {

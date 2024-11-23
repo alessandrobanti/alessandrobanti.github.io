@@ -130,10 +130,28 @@ footer {
 }
 
 
+#featured-projects {
+    max-width: 1200px; /* Adjust to your preferred maximum width */
+    margin: 0 auto;    /* Center the carousel on the page */
+}
+
+#projectCarousel img {
+    width: 100%;        /* Make the image fill the width of the carousel */
+    height: auto;       /* Maintain aspect ratio */
+    max-height: 600px;  /* Optional: Limit the height for very tall images */
+    object-fit: contain; /* Ensure the full image is visible */
+}
+
+
 /* Custom gutter only on larger screens */
 @media (min-width: 768px) {
 
     .pd_r {
+        padding-right: 15px;
+    }
+
+    #featured-projects .container {
+        padding-left: 15px; /* Restore default padding for tablets and larger screens */
         padding-right: 15px;
     }
 
